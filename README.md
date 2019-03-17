@@ -13,7 +13,7 @@
 
  * DeviationTXシステムメッセージ (System messages) [global]
  * マルチローター関連用語 (Multirotor related) [custom]
- * フリー素材による数値読み上げ、およびシステムメッセージ [Anime]
+ * フリー素材による数値読み上げ、およびシステムメッセージ [anime]
  * フリー素材によるシステム効果音 [system]
 
 
