@@ -20,9 +20,9 @@
 
 ## ダウンロードとインストール (Download & Install)
 
-release (https://github.com/ToshihiroMakuuchi/deviationtx-japanese-soundpack/releases) ページへ移動し、最新のZIPアーカイブファイルをダウンロード、および解凍してください。また、ご自身の送信機で使用している対象音源を削除してください。音源はSDカード内の `mp3 /`以下のディレクトリに収められます。ダウンロードおよび解凍したZIPアーカイブの内容をコピーし、SDカードの `mp3 /`ディレクトリへコピーを行います。
+release (https://github.com/ToshihiroMakuuchi/DebiationTX-japanese-soundpack/releases) ページへ移動し、最新のZIPアーカイブファイルをダウンロード、および解凍してください。またご自身の送信機で使用している対象音源を削除します。音源はSDカード内の `mp3 /`以下のディレクトリに収められます。ダウンロードおよび解凍したZIPアーカイブの内容をコピーし、SDカードの `mp3 /`ディレクトリへコピーを行います。
 
-また、ZIPファイルを解凍した中に【voice.ini】ファイルがありますが、これは送信機本体側のDeviationディレクトリ`media /`以下に保存してください。
+また、ZIPファイルを解凍した際、直下に【voice.ini】ファイルがありますが、これは送信機本体側のDeviationディレクトリ`media /`以下に保存してください。
 2019年3月現在、DeviationTXナイトリービルド版は、256ファイル以上の音源ファイルを正常に認識することができません。その為必要とする音源ファイルを150～200程度選定し、ご利用ください。
 
 Deviation送信機では音源対応(Voice Support)を行う場合、ハードウェア自身への音源ユニット(DFPlayer miniもしくは互換ユニット)の追加、また【hartdware.ini】の編集を行う必要があります。詳しくは下記内容をご確認ください。
