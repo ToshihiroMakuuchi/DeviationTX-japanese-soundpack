@@ -1,13 +1,13 @@
 # DeviationTX Japanese Soundpack
 ## はじめに (Introduction)
 
-まっく@Betaflight日本語化プロジェクトです。日本語化プロジェクトの派生としてOpenTX周りの音源を日本語化してみましたが、引き続きDeviationTX日本語サウンドパックを作成してみました。引き続きDeviation側でも皆様に利用して頂きまして、色々と使い勝手を良くしていければと考えます。
+まっく@Betaflight日本語化プロジェクトです。日本語化プロジェクトの派生として以前にOpenTX周りの音源を日本語化してみましたが、T8SG V2 Plusの技適OK祭りの勢いもあって？DeviationTX日本語サウンドパックを作成してみました。引き続きDeviation側でも皆様に利用して頂きまして、色々と使い勝手を良くしていければと考えます。
 
 
 
 ## 説明 (Description)
 
-このリポジトリは、DeviationTX 日本語サウンドパックを提供しています。今回、音源の日本語化にはMicrosoft合成音声エンジン(Ayumi)を用いてテキスト読み上げを行いました。動作確認環境としてはJumper T8SG V2 Plus、またDeviationバージョンはナイトリービルド2019/02/11版を中心に行っております。
+このリポジトリは、DeviationTX 日本語サウンドパックを提供しています。今回、音源の日本語化にはMicrosoft合成音声エンジン(Ayumi)を用いてテキスト読み上げを行いました。数値読み上げの部分はフリー素材を用いて組み合わせています。動作確認環境としてはJumper T8SG V2 Plus、またDeviationバージョンはナイトリービルド2019/02/11版を中心に行っております。
 
 このサウンドパックが提供するメッセージフレーズは、下記カテゴリのいずれかに分類されます：
 
@@ -40,9 +40,16 @@ release (https://github.com/ToshihiroMakuuchi/deviationtx-japanese-soundpack/rel
 
 
 
+## フリー素材の使用
+
+合成音声では聴き辛い部分の数値の読み上げに関しては、フリー素材サイト【効果音ラボ】さまのものを、余白音声部分のカットや数値読み上げ合成の編集し、合わせてvoice.iniを作成致しました。配布セットとしてvoice.iniならびに音源を合わせております為、利用にあたりMP3音声ファイル単独での利用は行わないでください。また、単独で調整を行いたい場合には改めて下記サイトより必要なファイルをダウンロードしてご利用ください。
+https://soundeffect-lab.info/sound/voice/
+
+
+
 ## クレジット (Credits)
 
-これらのサウンドパックはPhaeilo氏が提供する【Siri Multirotor Soundpack for OpenTX】をforkし、それを日本語化したものをDeviationTXで使用できるようにvoice.iniファイルを用意しました。dale3h氏およびPhaeilo氏の、非常にすばらしい英語版サウンドパックの提供に感謝致します。
+これらのサウンドパックはPhaeilo氏が提供する【Siri Multirotor Soundpack for OpenTX】をforkし、それをOpenTX用に日本語化したものをDeviationTXでも使用ができるように必要なファイル群をまとめ、合わせてvoice.iniファイルを用意しました。dale3h氏およびPhaeilo氏の、非常にすばらしい英語版サウンドパックの提供に感謝致します。
 
 * Inspiration: "Amber" sound pack by Arron Bates (theKM)
 * Original "taranis-siri-sound-pack" by: Dale Higgs (dale3h)
@@ -53,8 +60,11 @@ release (https://github.com/ToshihiroMakuuchi/deviationtx-japanese-soundpack/rel
 
 ## Siri Multirotor Soundpack for OpenTX
 
-fork元である英語版サウンドパックはこちらです。
-
+fork元であるOpenTX英語版サウンドパックはこちらです。
 https://github.com/Phaeilo/opentx-siri-multirotor
+
+## DeviationTX Voice_packs
+また、DeviationTXの英語、フランス語、ドイツ語の各種サウンドパックはこちらをご参考としてください。
+https://www.deviationtx.com/downloads-new/category/1010-moeder-voice-packs
 
 
