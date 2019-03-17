@@ -43,6 +43,7 @@ release (https://github.com/ToshihiroMakuuchi/deviationtx-japanese-soundpack/rel
 ## フリー素材の使用
 
 合成音声では聴き辛い部分の数値の読み上げに関しては、フリー素材サイト【効果音ラボ】さまのものを、余白音声部分のカットや数値読み上げ合成の編集し、合わせてvoice.iniを作成致しました。配布セットとしてvoice.iniならびに音源を合わせております為、利用にあたりMP3音声ファイル単独での利用は行わないでください。また、単独で調整を行いたい場合には改めて下記サイトより必要なファイルをダウンロードしてご利用ください。
+
 https://soundeffect-lab.info/sound/voice/
 
 
@@ -61,10 +62,12 @@ https://soundeffect-lab.info/sound/voice/
 ## Siri Multirotor Soundpack for OpenTX
 
 fork元であるOpenTX英語版サウンドパックはこちらです。
+
 https://github.com/Phaeilo/opentx-siri-multirotor
 
 ## DeviationTX Voice_packs
 また、DeviationTXの英語、フランス語、ドイツ語の各種サウンドパックはこちらをご参考としてください。
+
 https://www.deviationtx.com/downloads-new/category/1010-moeder-voice-packs
 
 
