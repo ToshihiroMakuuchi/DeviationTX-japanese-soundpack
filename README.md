@@ -30,12 +30,14 @@ release (https://github.com/ToshihiroMakuuchi/deviationtx-japanese-soundpack/rel
 `index.csv`ファイルは、音源に含まれるすべてのメッセージフレーズのデータベースとなります。
 `tools /`ディレクトリにあるPythonスクリプトは、テキスト読み上げをを行いWAVデータを生成するために使用しますが、今回この音源はスクリプトを使用せず別ツールを用いてWAVファイルを生成、もしくはフリー素材音源を加工して生成しています。またCSVファイルは、下記の項目に分かれています。
 
- * `_idx` 対象メッセージが最初に抽出されたファイル名
- * `_category` 対象メッセージに割り当てられた旧カテゴリ
- * `category` 対象メッセージに割り当てられた新カテゴリ
+index.csv項目は【Siri Multirotor Soundpack for OpenTX】に準拠しますが、Deviationにて利用する為、下記内容にて項目を利用しています。
+
+ * `_idx` この項目はvoice.ini内の音源長(ms)として利用
+ * `_category` 対象メッセージに割り当てられた旧カテゴリ(未使用)
+ * `category` 対象メッセージに割り当てられたカテゴリ
  * `directory` 対象メッセージを格納するファイルシステムのパス
- * `_filename`  対象メッセージの旧ファイル名
- * `filename` 対象メッセージの新ファイル名
+ * `_filename`  この項目はvoice.ini内のコメントとして利用
+ * `filename` 対象メッセージのファイル名
  * `_text` メッセージフレーズ内容
 
 
