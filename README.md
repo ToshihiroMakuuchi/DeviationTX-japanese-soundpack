@@ -7,21 +7,27 @@
 
 ## 説明 (Description)
 
-このリポジトリは、DeviationTX 日本語サウンドパックを提供しています。今回、音源の日本語化にはMicrosoft合成音声エンジン(Ayumi)を用いてテキスト読み上げを行いました。数値読み上げの部分はフリー素材を用いて組み合わせています。動作確認環境としてはJumper T8SG V2 Plus、またDeviationバージョンはナイトリービルド2019/02/11版を中心に行っております。
+このリポジトリは、DeviationTX 日本語サウンドパックを提供しています。今回、音源の日本語化にはMicrosoft合成音声エンジン(Ayumi)を用いてテキスト読み上げを行いました。数値読み上げの部分や一部システムメッセージや効果音はフリー素材を用いて組み合わせています。動作確認環境としてはJumper T8SG V2 Plus、またDeviationバージョンはナイトリービルド2019/02/11版を中心に行っております。
 
 このサウンドパックが提供するメッセージフレーズは、下記カテゴリのいずれかに分類されます：
 
- * DeviationTXシステムメッセージ (System messages)
- * マルチローター関連用語 (Multirotor related)
+ * DeviationTXシステムメッセージ (System messages) [global]
+ * マルチローター関連用語 (Multirotor related) [custom]
+ * フリー素材による数値読み上げ、およびシステムメッセージ [Anime]
+ * フリー素材によるシステム効果音 [system]
 
 
 
 ## ダウンロードとインストール (Download & Install)
 
-release (https://github.com/ToshihiroMakuuchi/deviationtx-japanese-soundpack/releases) ページへ移動し、最新のZIPアーカイブファイルをダウンロード、および解凍してください。また、ご自身の送信機で使用している対象音源を削除してください。音源はSDカード内の `MP3 /`以下のディレクトリに収められます。ダウンロードおよび解凍したZIPアーカイブの内容をコピーし、SDカードの `MP3 /`ディレクトリへコピーを行います。
+release (https://github.com/ToshihiroMakuuchi/deviationtx-japanese-soundpack/releases) ページへ移動し、最新のZIPアーカイブファイルをダウンロード、および解凍してください。また、ご自身の送信機で使用している対象音源を削除してください。音源はSDカード内の `mp3 /`以下のディレクトリに収められます。ダウンロードおよび解凍したZIPアーカイブの内容をコピーし、SDカードの `mp3 /`ディレクトリへコピーを行います。
 
 また、ZIPファイルを解凍した中に【voice.ini】ファイルがありますが、これは送信機本体側のDeviationディレクトリ`media /`以下に保存してください。
-2019年3月現在、DeviationTXナイトリービルド版は、256ファイル以上の音源ファイルを正常に認識することができません。その為必要とする音源ファイルを選択してご利用ください。
+2019年3月現在、DeviationTXナイトリービルド版は、256ファイル以上の音源ファイルを正常に認識することができません。その為必要とする音源ファイルを150～200程度選定し、ご利用ください。
+
+Deviation送信機では音源対応(Voice Support)を行う場合、ハードウェア自身への音源ユニット(DFPlayer miniもしくは互換ユニット)の追加、また【hartdware.ini】の編集を行う必要があります。詳しくは下記内容をご確認ください。
+
+https://www.deviationtx.com/wiki/voiceoutput
 
 
 
@@ -32,7 +38,7 @@ release (https://github.com/ToshihiroMakuuchi/deviationtx-japanese-soundpack/rel
 
 index.csv項目は【Siri Multirotor Soundpack for OpenTX】に準拠しますが、Deviationにて利用する為、下記内容にて項目を利用しています。
 
- * `_idx` この項目はvoice.ini内の音源長(ms)として利用
+ * `_idx` この項目はvoice.ini内の音源再生長(ms)として利用
  * `_category` 対象メッセージに割り当てられた旧カテゴリ(未使用)
  * `category` 対象メッセージに割り当てられたカテゴリ
  * `directory` 対象メッセージを格納するファイルシステムのパス
